@@ -4,6 +4,9 @@ ruby "3.3.0"
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# Manage secrets
+gem 'dotenv-rails'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
